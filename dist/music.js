@@ -18,6 +18,69 @@ const ap = new APlayer({
         url: 'https://drive.google.com/uc?export=download&id=1wCukoSortqd4CEvw-oudRuBiM1nymxB9',
         cover: '/music/cover/打上花火.jpg',
 		lrc: '/music/lyrics/打上花火.lrc'
+      },
+	  {
+        name: "雙人枕頭",
+        artist: '王識賢',
+        url: 'https://drive.google.com/uc?export=download&id=1lI3CYK7wcZ3K2X7eHsa6M0urR5QUbPua',
+        cover: '/music/cover/雙人枕頭.jpg',
+		lrc: '/music/lyrics/雙人枕頭.lrc'
+      },
+	  {
+        name: "你是我胸口永遠的痛",
+        artist: '王傑',
+        url: 'https://drive.google.com/uc?export=download&id=1AoZCUkpALdRJvNrqOcZ3uwrogn6gg-ai',
+        cover: '/music/cover/你是我胸口永遠的痛.jpg',
+		lrc: '/music/lyrics/你是我胸口永遠的痛.lrc'
+      },
+	  {
+        name: "講什麼山盟海誓",
+        artist: '黃乙玲',
+        url: 'https://drive.google.com/uc?export=download&id=14ryQNt7vFVtRnmLXpDld0-Y5Or5YahJQ',
+        cover: '/music/cover/講什麼山盟海誓.jpg',
+		lrc: '/music/lyrics/講什麼山盟海誓.lrc'
+      },
+	  {
+        name: "表裏一體",
+        artist: '柚子YUZU',
+        url: 'https://drive.google.com/uc?export=download&id=1jWjKAoycn9oxuYNFFsdNQ-DvXFL4R-oD',
+        cover: '/music/cover/表裏一體.jpg',
+		lrc: '/music/lyrics/表裏一體.lrc'
+      },
+	  {
+        name: "夢中雨",
+        artist: '新居昭乃',
+        url: 'https://drive.google.com/uc?export=download&id=1QMItdOonu2TsFDvKydw6EpLhN03gMkg6',
+        cover: '/music/cover/夢中雨.jpg',
+		lrc: '/music/lyrics/夢中雨.lrc'
+      },
+	  {
+        name: "My Heart Will Go On",
+        artist: 'Celine Dion',
+        url: 'https://drive.google.com/uc?export=download&id=1hWOKIYG7mmB3eG7ba3ugj9w8sK96xBRS',
+        cover: '/music/cover/My Heart Will Go On.jpg',
+		lrc: '/music/lyrics/My Heart Will Go On.lrc'
+      },
+	  {
+        name: "Catch the Moment",
+        artist: 'LISA',
+        url: 'https://drive.google.com/uc?export=download&id=1DxE9eEPzSoJ_3k6jTRTcMbvEVPzWK9D8',
+        cover: '/music/cover/Catch the Moment.jpg',
+		lrc: '/music/lyrics/Catch the Moment.lrc'
+      },
+	  {
+        name: "Break Beat Bark！",
+        artist: '神田沙也加',
+        url: 'https://drive.google.com/uc?export=download&id=1rFY19D-bYYy-YMH6xn9qI5ZzerrnDcHF',
+        cover: '/music/cover/Break Beat Bark.jpg',
+		lrc: '/music/lyrics/Break Beat Bark.lrc'
+      },
+	  {
+        name: "Brilliant Bright",
+        artist: 'MYTH & ROID',
+        url: 'https://drive.google.com/uc?export=download&id=1tsAxZPTVOQUokGAQsMRi-SHLeDcDy2qI',
+        cover: '/music/cover/Brilliant Bright.jpg',
+		lrc: '/music/lyrics/Brilliant Bright.lrc'
       }
       
     ]

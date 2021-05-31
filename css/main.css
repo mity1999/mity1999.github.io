@@ -2727,7 +2727,7 @@ mark.search-keyword {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #3413ff;
+  background: #d4ffe9;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2753,6 +2753,18 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
 }
 .post-body p a {
   color: #00c3ff;

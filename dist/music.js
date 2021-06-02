@@ -78,7 +78,7 @@ const ap = new APlayer({
 	  {
         name: "Brilliant Bright",
         artist: 'MYTH & ROID',
-        url: 'https://drive.google.com/uc?export=download&id=1tsAxZPTVOQUokGAQsMRi-SHLeDcDy2qI',
+        url: 'https://drive.google.com/uc?export=download&id=1oXKf0M06NhwkTRFUYZamngAb7xknBhId',
         cover: '/music/cover/Brilliant Bright.jpg',
 		lrc: '/music/lyrics/Brilliant Bright.lrc'
       }

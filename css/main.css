@@ -3051,3 +3051,9 @@ body {
   border-bottom: none;
   border-radius: 20px;
 }
+* {
+  cursor: url("/images/default.cur"), default;
+}
+:link {
+  cursor: url("/images/pointer.cur"), pointer;
+}

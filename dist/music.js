@@ -81,6 +81,20 @@ const ap = new APlayer({
         url: 'https://drive.google.com/uc?export=download&id=1oXKf0M06NhwkTRFUYZamngAb7xknBhId',
         cover: '/music/cover/Brilliant Bright.jpg',
 		lrc: '/music/lyrics/Brilliant Bright.lrc'
+      },
+	  {
+        name: "超喜歡你",
+        artist: '飛輪海',
+        url: 'https://drive.google.com/uc?export=download&id=1NOU4fOceRGh97UjXKyus6CGNNXdAl9mk',
+        cover: '/music/cover/我超喜歡你.jpg',
+		lrc: '/music/lyrics/我超喜歡你.lrc'
+      },
+	  {
+        name: "罪深き俺たちの賛歌",
+        artist: '監獄男子',
+        url: 'https://drive.google.com/uc?export=download&id=1SDT217L1ZJB0EXP3qQvsG6paINKPEi5_',
+        cover: '/music/cover/罪深き俺たちの賛歌.jpg',
+		lrc: '/music/lyrics/罪深き俺たちの賛歌.lrc'
       }
       
     ]

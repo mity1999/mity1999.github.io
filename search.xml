@@ -57,11 +57,11 @@
 </li>
 </ul>
 <h2 id="組合指令"><a href="#組合指令" class="headerlink" title="組合指令"></a><font color=#008000>組合指令</font></h2><ul>
-<li>redirection 重新導向 : 結果 <code>&gt;</code> 位置。 <ul>
+<li>redirection 重新導向 : 結果 <code>&gt;</code> 位置<ul>
 <li>即某結果放到某特定位置(檔案、資料夾)</li>
 </ul>
 </li>
-<li>pipe : 指令 (L1) <code>|</code> 指令 (R2)。 <ul>
+<li>pipe : 指令 L1 <code>|</code> 指令 R2<ul>
 <li>即 L1 的結果放到 R2 中繼續執行，再合併顯示最終結果</li>
 </ul>
 </li>

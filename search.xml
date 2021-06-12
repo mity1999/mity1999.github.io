@@ -3,7 +3,9 @@
   <entry>
     <title>常用的 Comand Line 指令</title>
     <url>/2021/06/11/test.html</url>
-    <content><![CDATA[<h2 id="這裡是哪裡"><a href="#這裡是哪裡" class="headerlink" title="這裡是哪裡?"></a><font color=#008000>這裡是哪裡?</font></h2><ul>
+    <content><![CDATA[<div class="note warning"><p>某些指令有區分大小寫，功能各不同。<br>只需要鍵盤就能操控電腦真滴不錯玩!</p>
+</div>
+<h2 id="我是誰-我在哪"><a href="#我是誰-我在哪" class="headerlink" title="我是誰?我在哪?"></a><font color=#008000>我是誰?我在哪?</font></h2><ul>
 <li><code>pwd</code>: 顯示目前所在位置</li>
 <li><code>ls</code>: 列出檔案清單<ul>
 <li><code>ls -al</code>: 各檔案的詳細資料， 包括隱藏檔案<span id="more"></span></li>
@@ -11,7 +13,7 @@
 </li>
 <li><code>cd</code>: 任意門~~ 切換目前位置<ul>
 <li><code>cd ..</code>: 返回上一層</li>
-<li><code>cd ~</code>: 快速進入 /使用者/username 資料夾中</li>
+<li><code>cd ~</code>: 快速進入 /user/username 資料夾中</li>
 </ul>
 </li>
 <li><code>man</code>: 查看指令功能<ul>
@@ -19,6 +21,38 @@
 </ul>
 </li>
 </ul>
-<h2 id="檔案操作"><a href="#檔案操作" class="headerlink" title="檔案操作"></a><font color=#008000>檔案操作</font></h2>]]></content>
+<h2 id="檔案操作"><a href="#檔案操作" class="headerlink" title="檔案操作"></a><font color=#008000>檔案操作</font></h2><ul>
+<li><code>touch</code>: 建立檔案。 若檔案已存在， 則會更新檔案的最後修改時間</li>
+<li><code>rm</code>: 刪除檔案<ul>
+<li><code>rm -r</code>: 刪除資料夾，等於 <code>rmdir</code> </li>
+</ul>
+</li>
+<li><code>mkdir</code>: 建立資料夾</li>
+<li><code>mv</code>: 移動檔案。 也可以重新命名檔案，用法相同</li>
+<li><code>cp</code>: 複製檔案內容到新的檔案中<ul>
+<li><code>cp -r</code>: 複製整個資料夾</li>
+</ul>
+</li>
+</ul>
+<h2 id="文字編輯"><a href="#文字編輯" class="headerlink" title="文字編輯"></a><font color=#008000>文字編輯</font></h2><ul>
+<li><code>vim</code>: 啟動文字編輯器<ul>
+<li><code>i</code>: 插入文字(insert)</li>
+<li><code>:q</code>: 離開編輯器</li>
+<li><code>:wq</code>: 儲存內容</li>
+<li><code>:!q</code>: 不儲存</li>
+</ul>
+</li>
+<li><code>cat</code>: 連接檔案。 若只有一個檔案參數， 則列出檔案內容</li>
+</ul>
+<h2 id="其他好用指令"><a href="#其他好用指令" class="headerlink" title="其他好用指令"></a><font color=#008000>其他好用指令</font></h2><ul>
+<li><code>grep</code>: 搜尋檔案中的特定關鍵字。 用法: <code>grep 字 檔案名</code></li>
+<li> <code>wget</code>: 下載檔案。 用法: <code>wget url(網址)</code></li>
+<li><code>curl</code>: 送出 request 。</li>
+</ul>
+<h2 id="組合指令"><a href="#組合指令" class="headerlink" title="組合指令"></a><font color=#008000>組合指令</font></h2><ol>
+<li>重新導向 redirection:</li>
+<li>pipe ( | ):</li>
+</ol>
+]]></content>
   </entry>
 </search>

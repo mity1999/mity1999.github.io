@@ -2939,14 +2939,14 @@ body {
   background-position: 50% 50%;
 }
 .post-body p a {
-  color: #00c3ff;
-  border-bottom: none;
-  border-bottom: 1px solid #00c3ff;
-}
-.post-body p a:hover {
   color: #04f;
   border-bottom: none;
   border-bottom: 1px solid #04f;
+}
+.post-body p a:hover {
+  color: #f60;
+  border-bottom: none;
+  border-bottom: 1px solid #f60;
 }
 .post {
   margin-top: 60px;

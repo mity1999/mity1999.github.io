@@ -3,7 +3,16 @@
   <entry>
     <title>常用的 Comand Line 指令</title>
     <url>/2021/06/11/test.html</url>
-    <content><![CDATA[<p>www</p>
-]]></content>
+    <content><![CDATA[<h2 id="這裡是哪裡"><a href="#這裡是哪裡" class="headerlink" title="這裡是哪裡?"></a><font color=#008000>這裡是哪裡?</font></h2><ul>
+<li><code>pwd</code>: 顯示目前所在位置</li>
+<li><code>ls</code>: 列出檔案清單</li>
+<li><code>ls -al</code>: 各檔案的詳細資料， 包括隱藏檔案<span id="more"></span></li>
+<li><code>cd</code>: 任意門~~ 切換目前位置</li>
+<li><code>cd ..</code>: 返回上一層</li>
+<li><code>cd ~</code>: 快速進入 /使用者/username 資料夾中</li>
+<li><code>man</code>: 查看指令功能</li>
+<li>如: <code>man ls</code> 即查看 <code>ls</code> 此指令的所有功能</li>
+</ul>
+<h2 id="檔案操作"><a href="#檔案操作" class="headerlink" title="檔案操作"></a><font color=#008000>檔案操作</font></h2>]]></content>
   </entry>
 </search>

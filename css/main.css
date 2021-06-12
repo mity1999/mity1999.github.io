@@ -2944,9 +2944,9 @@ body {
   border-bottom: 1px solid #04f;
 }
 .post-body p a:hover {
-  color: #f60;
+  color: #daa520;
   border-bottom: none;
-  border-bottom: 1px solid #f60;
+  border-bottom: 1px solid #daa520;
 }
 .post {
   margin-top: 60px;

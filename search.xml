@@ -3,7 +3,7 @@
   <entry>
     <title>常用的 Comand Line 指令</title>
     <url>/2021/06/11/test.html</url>
-    <content><![CDATA[<div class="note warning"><p>某些指令有區分大小寫，功能各不同。<br>只需要鍵盤就能操控電腦真滴不錯玩!</p>
+    <content><![CDATA[<div class="note warning"><p>部分指令區分大小寫，功能各不同。<br>只用鍵盤就能操控電腦， 真的不錯玩!</p>
 </div>
 <h2 id="我是誰-我在哪"><a href="#我是誰-我在哪" class="headerlink" title="我是誰?我在哪?"></a><font color=#008000>我是誰?我在哪?</font></h2><ul>
 <li><code>pwd</code>: 顯示目前所在位置</li>
@@ -43,16 +43,20 @@
 </ul>
 </li>
 <li><code>cat</code>: 連接檔案。 若只有一個檔案參數， 則列出檔案內容</li>
+<li><code>echo</code>: 印出 <strong>“ “</strong> (雙引號)中內容。 用法: <code>echo &quot;  &quot;</code>。 若搭配redirection 重新導向， 則將內容導向檔案中</li>
 </ul>
 <h2 id="其他好用指令"><a href="#其他好用指令" class="headerlink" title="其他好用指令"></a><font color=#008000>其他好用指令</font></h2><ul>
 <li><code>grep</code>: 搜尋檔案中的特定關鍵字。 用法: <code>grep 字 檔案名</code></li>
 <li> <code>wget</code>: 下載檔案。 用法: <code>wget url(網址)</code></li>
-<li><code>curl</code>: 送出 request 。</li>
+<li><code>curl</code>: 測試 API網址<ul>
+<li><code>curl -I</code>: 擷取HTTP相關的header資訊</li>
 </ul>
-<h2 id="組合指令"><a href="#組合指令" class="headerlink" title="組合指令"></a><font color=#008000>組合指令</font></h2><ol>
-<li>重新導向 redirection:</li>
-<li>pipe ( | ):</li>
-</ol>
+</li>
+</ul>
+<h2 id="組合指令"><a href="#組合指令" class="headerlink" title="組合指令"></a><font color=#008000>組合指令</font></h2><ul>
+<li>redirection 重新導向 : 結果 <code>&gt;</code> 位置。 即某結果放到某特定位置(檔案、資料夾)</li>
+<li>pipe : 指令 (L1) <code>|</code> 指令 (R2)。 即 L1 的結果放到 R2 中繼續執行，再合併顯示最終結果</li>
+</ul>
 ]]></content>
   </entry>
 </search>

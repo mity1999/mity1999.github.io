@@ -3027,7 +3027,7 @@ body {
 }
 .tag-cloud a {
   box-shadow: 0 1px 3px #6f42c1, 0 1px 2px #d9534f;
-  padding: 2px 10px;
+  padding: 12px 30px;
   margin: 8px;
   background: rgba(193,66,92,0);
   border-bottom: none;

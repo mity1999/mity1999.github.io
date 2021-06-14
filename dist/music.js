@@ -97,7 +97,7 @@ const ap = new APlayer({
 		lrc: '/music/lyrics/罪深き俺たちの賛歌.lrc'
       },
 	  {
-        name: "鋼琴の影像詩 - 夏末隨想曲",
+        name: "夏末隨想曲",
         artist: 'yt 梅舒涵',
         url: 'https://drive.google.com/uc?export=download&id=193jQg7Joz5OMSEF15NrtKf272PFcMA3t',
         cover: '/music/cover/夏末隨想曲.jpg',

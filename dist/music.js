@@ -97,6 +97,13 @@ const ap = new APlayer({
 		lrc: '/music/lyrics/罪深き俺たちの賛歌.lrc'
       },
 	  {
+        name: "Hear Me Cry",
+        artist: '宇多田ヒカル',
+        url: 'https://drive.google.com/uc?export=download&id=1PGeHsFwNgetT4mdaAEGhrQ5KjK2z4hHX',
+        cover: '/music/cover/Hear Me Cry.jpg',
+		lrc: '/music/lyrics/Hear Me Cry.lrc'
+      },
+	  {
         name: "夏末隨想曲",
         artist: 'yt 梅舒涵',
         url: 'https://drive.google.com/uc?export=download&id=193jQg7Joz5OMSEF15NrtKf272PFcMA3t',

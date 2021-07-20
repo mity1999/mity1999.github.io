@@ -108,7 +108,14 @@ const ap = new APlayer({
         artist: 'yt 梅舒涵',
         url: 'https://drive.google.com/uc?export=download&id=193jQg7Joz5OMSEF15NrtKf272PFcMA3t',
         cover: '/music/cover/夏末隨想曲.jpg',
+      },
+	  {
+        name: "長島",
+        artist: '花粥',
+        url: 'https://drive.google.com/uc?export=download&id=1Ed7TPfgPYnmUppyZhswRv8lpOy3n7wc-',
+		lrc: '/music/lyrics/長島.lrc'
       }
+	  
       
     ]
 });

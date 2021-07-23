@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>常用的 Comand Line 指令</title>
+    <title>常用的 Comand Line 指令 &lt;font color=#FF0000&gt;更新&lt;/font&gt;</title>
     <url>/2021/06/11/test.html</url>
-    <content><![CDATA[<div class="note warning"><p>部分指令區分大小寫，功能各不同。<br>只用鍵盤就能操控電腦， 真的不錯玩!</p>
+    <content><![CDATA[<div class="note warning"><p>部分指令區分大小寫，功能各不同。<br>鍵盤操控電腦為CLI，螢幕上用滑鼠操控電腦為GUI，即圖形化介面。<br>GUI方便，但是電腦有些功能仍舊要CLI，有時候CLI也比較快。</p>
 </div>
 <h2 id="我是誰-我在哪"><a href="#我是誰-我在哪" class="headerlink" title="我是誰?我在哪?"></a><font color=#008000>我是誰?我在哪?</font></h2><ul>
 <li><code>pwd</code>: 顯示目前所在位置</li>
@@ -14,12 +14,15 @@
 <li><code>cd</code>: 任意門~~ 切換目前位置<ul>
 <li><code>cd ..</code>: 返回上一層</li>
 <li><code>cd ~</code>: 快速進入 /user/username 資料夾中</li>
+<li><code>cd /</code>: 快速進入根目錄。</li>
 </ul>
 </li>
 <li><code>man</code>: 查看指令功能<ul>
 <li>如: <code>man ls</code> 即查看 <code>ls</code> 此指令的所有功能</li>
 </ul>
 </li>
+<li><code>date</code>: 在終端顯示現在時間</li>
+<li><code>top</code>: 在終端印出所有程序(process)。按 <code>Q</code> 離開</li>
 </ul>
 <h2 id="檔案操作"><a href="#檔案操作" class="headerlink" title="檔案操作"></a><font color=#008000>檔案操作</font></h2><ul>
 <li><code>touch</code>: 建立檔案。 若檔案已存在， 則會更新檔案的最後修改時間</li>
@@ -28,7 +31,10 @@
 </ul>
 </li>
 <li><code>mkdir</code>: 建立資料夾</li>
-<li><code>mv</code>: 移動檔案。 也可以重新命名檔案，用法相同</li>
+<li><code>mv</code>: 移動檔案。 也可以重新命名檔案，用法相同<ul>
+<li>用法: <code>mv 檔案 新位置(新名稱)</code></li>
+</ul>
+</li>
 <li><code>cp</code>: 複製檔案內容到新的檔案中<ul>
 <li><code>cp -r</code>: 複製整個資料夾</li>
 </ul>
@@ -43,13 +49,14 @@
 </ul>
 </li>
 <li><code>cat</code>: 連接檔案。 若只有一個檔案參數， 則列出檔案內容</li>
+<li><code>less</code>: 分頁式列出檔案，方便閱讀。按 <code>Q</code> 離開</li>
 <li><code>echo</code>: 印出 <strong>“ “</strong> (雙引號)中內容。 <ul>
 <li>用法: <code>echo &quot;  &quot;</code>。 若搭配redirection 重新導向， 則將內容導向檔案中</li>
 </ul>
 </li>
 </ul>
 <h2 id="其他好用指令"><a href="#其他好用指令" class="headerlink" title="其他好用指令"></a><font color=#008000>其他好用指令</font></h2><ul>
-<li><code>grep</code>: 搜尋檔案中的特定關鍵字。 用法: <code>grep 字 檔案名</code></li>
+<li><code>grep</code>: 搜尋檔案中的特定關鍵字。 用法: <code>grep 關鍵字 檔案名</code></li>
 <li> <code>wget</code>: 下載檔案。 用法: <code>wget url(網址)</code></li>
 <li><code>curl</code>: 測試 API網址<ul>
 <li><code>curl -I</code>: 擷取HTTP相關的header資訊</li>
@@ -57,7 +64,7 @@
 </li>
 </ul>
 <h2 id="組合指令"><a href="#組合指令" class="headerlink" title="組合指令"></a><font color=#008000>組合指令</font></h2><ul>
-<li>redirection 重新導向 : 結果 <code>&gt;</code> 位置<ul>
+<li>redirect (重新導向) : 結果 <code>&gt;</code> 位置<ul>
 <li>即某結果放到某特定位置(檔案、資料夾)</li>
 </ul>
 </li>

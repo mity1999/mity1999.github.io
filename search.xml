@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>常用的 Comand Line 指令 &lt;font color=#FF0000&gt;更新&lt;/font&gt;</title>
+    <title>常用的 Comand Line 指令 &lt;font color=#FF0000&gt;New&lt;/font&gt;</title>
     <url>/2021/06/11/test.html</url>
     <content><![CDATA[<div class="note warning"><p>部分指令區分大小寫，功能各不同。<br>鍵盤操控電腦為CLI，螢幕上用滑鼠操控電腦為GUI，即圖形化介面。<br>GUI方便，但是電腦有些功能仍舊要CLI，有時候CLI也比較快。</p>
 </div>
@@ -57,7 +57,7 @@
 </ul>
 <h2 id="其他好用指令"><a href="#其他好用指令" class="headerlink" title="其他好用指令"></a><font color=#008000>其他好用指令</font></h2><ul>
 <li><code>grep</code>: 搜尋檔案中的特定關鍵字。 用法: <code>grep 關鍵字 檔案名</code></li>
-<li> <code>wget</code>: 下載檔案。 用法: <code>wget url(網址)</code></li>
+<li><code>wget</code>: 下載檔案。 用法: <code>wget url(網址)</code></li>
 <li><code>curl</code>: 測試 API網址<ul>
 <li><code>curl -I</code>: 擷取HTTP相關的header資訊</li>
 </ul>
@@ -76,7 +76,18 @@
 ]]></content>
       <categories>
         <category>程式設計</category>
-        <category>學習筆記</category>
+        <category>基礎</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>電腦儲存資料的方式</title>
+    <url>/2021/07/25/%E9%9B%BB%E8%85%A6%E5%84%B2%E5%AD%98%E8%B3%87%E6%96%99%E7%9A%84%E6%96%B9%E5%BC%8F.html</url>
+    <content><![CDATA[<h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就要進位，</p>
+<h2 id="二進位-Binary"><a href="#二進位-Binary" class="headerlink" title="二進位(Binary)"></a><font color=#FF6600>二進位(Binary)</font></h2><p>電腦的底層訊號，亦為電腦專用的語言，電腦只懂二進位。</p>
+]]></content>
+      <categories>
+        <category>程式設計</category>
+        <category>基礎</category>
       </categories>
   </entry>
 </search>

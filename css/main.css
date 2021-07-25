@@ -3091,7 +3091,8 @@ pre {
   top: 10px;
   width: 18px;
   height: 18px;
-  content: "🌈";
+  content: "🌞";
+  font: normal normal normal 14px/1 FontAwesome;
   font-size: 18px;
   line-height: 18px;
   margin-right: 16px;
@@ -3101,8 +3102,7 @@ pre {
   top: 10px;
   width: 18px;
   height: 18px;
-  content: "🌞";
-  font: normal normal normal 14px/1 FontAwesome;
+  content: "🌈";
   font-size: 18px;
   line-height: 18px;
   margin-right: 16px;

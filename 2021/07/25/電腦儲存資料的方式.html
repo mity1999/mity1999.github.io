@@ -31,7 +31,7 @@
 <meta property="og:description" content="進位制十進位(Decimal)逢十就進位。0,1,2,3,4,5,6,7,8,9, 10，此時「十」要讀作「一零」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-07-24T23:18:00.000Z">
-<meta property="article:modified_time" content="2021-07-26T01:26:39.877Z">
+<meta property="article:modified_time" content="2021-07-26T02:08:22.388Z">
 <meta property="article:author" content="MITY">
 <meta name="twitter:card" content="summary">
 
@@ -154,7 +154,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%B2%E4%BD%8D%E5%88%B6"><span class="nav-number">1.</span> <span class="nav-text">進位制</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E9%80%B2%E4%BD%8D-Decimal"><span class="nav-number">1.1.</span> <span class="nav-text">十進位(Decimal)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E5%85%AD%E9%80%B2%E4%BD%8D-Hex"><span class="nav-number">1.2.</span> <span class="nav-text">十六進位(Hex)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93%E5%96%AE%E4%BD%8D"><span class="nav-number">2.</span> <span class="nav-text">儲存空間單位</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%B2%E4%BD%8D%E5%88%B6"><span class="nav-number">1.</span> <span class="nav-text">進位制</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E9%80%B2%E4%BD%8D-Decimal"><span class="nav-number">1.1.</span> <span class="nav-text">十進位(Decimal)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E9%80%B2%E4%BD%8D-Binary"><span class="nav-number">1.2.</span> <span class="nav-text">二進位(Binary)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AB%E9%80%B2%E4%BD%8D-Octal"><span class="nav-number">1.3.</span> <span class="nav-text">八進位(Octal)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E5%85%AD%E9%80%B2%E4%BD%8D-Hex"><span class="nav-number">1.4.</span> <span class="nav-text">十六進位(Hex)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93%E5%96%AE%E4%BD%8D"><span class="nav-number">2.</span> <span class="nav-text">儲存空間單位</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -287,7 +287,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新於</span>
-        <time title="修改時間：2021-07-26 09:26:39" itemprop="dateModified" datetime="2021-07-26T09:26:39+08:00">2021-07-26</time>
+        <time title="修改時間：2021-07-26 10:08:22" itemprop="dateModified" datetime="2021-07-26T10:08:22+08:00">2021-07-26</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -336,33 +336,21 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就進位。0,1,2,3,4,5,6,7,8,9, <font color=#FF0000>10</font>，此時「十」要讀作「<font color=#FF0000>一零</font>」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。<br><span id="more"></span><br>如:</p>
-<script type="math/tex; mode=display">100=1\times10^2+0\times10^1+0\times10^0$$，圖示為:$$\begin{matrix}
+        <h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就進位。0,1,2,3,4,5,6,7,8,9, <font color=#FF0000>10</font>，此時「十」要讀作「<font color=#FF0000>一零</font>」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。<br><span id="more"></span><br>如:<script type="math/tex">100=1\times10^2+0\times10^1+0\times10^0</script>，圖示為:<script type="math/tex">\begin{matrix}
 10^2&10^1&10^0\\
 1&0&0\\
-\end{matrix}$$。
-
-## <font color=#FF6600>二進位(Binary)</font>
-逢二進位。電腦的底層訊號，亦為其專用的語言，電腦只懂二進位。
-0,1,10(一零),11(一 一),100(一零零),101,...，分別對應十進位的0,1,2,3,4,5,...。
-如:
-<font color=#FF0000>$$\begin{matrix}
+\end{matrix}</script>。</p>
+<h2 id="二進位-Binary"><a href="#二進位-Binary" class="headerlink" title="二進位(Binary)"></a><font color=#FF6600>二進位(Binary)</font></h2><p>逢二進位。電腦的底層訊號，亦為其專用的語言，電腦只懂二進位。<br>0,1,10(一零),11(一 一),100(一零零),101,…，分別對應十進位的0,1,2,3,4,5,…。<br>如:<font color=#FF0000><script type="math/tex">\begin{matrix}
 0&1&2&3&4&5&十進位\\
 0&1&10&11&100&101&二進位\\
-\end{matrix}$$</font>
-二進位的$$1000=1\times2^3+0\times2^2+0\times2^1+0\times2^0=8 (十進位)$$，
-圖示: $$\begin{matrix}
+\end{matrix}</script></font><br>二進位的<script type="math/tex">1000=1\times2^3+0\times2^2+0\times2^1+0\times2^0=8 (十進位)</script>，<br>圖示: <script type="math/tex">\begin{matrix}
 2^3&2^2&2^1&2^0\\
 1&0&0&0\\
-\end{matrix}$$， 和十進位差別在於<mark>底數</mark>，二進位以「2」為基底。
-
-
-## 八進位(Octal)
-逢八進位，以「8」為基底。0,1,2,3,4,5,6,7,10,...，此時的「10」等於十進位的「8」。
-如:$$\begin{matrix}
+\end{matrix}</script>， 和十進位差別在於<mark>底數</mark>，二進位以「2」為基底。</p>
+<h2 id="八進位-Octal"><a href="#八進位-Octal" class="headerlink" title="八進位(Octal)"></a>八進位(Octal)</h2><p>逢八進位，以「8」為基底。0,1,2,3,4,5,6,7,10,…，此時的「10」等於十進位的「8」。<br>如:<script type="math/tex">\begin{matrix}
 0&1&2&3&4&5&6&7&8&9& 十進位\\
 0&1&2&3&4&5&6&7&10&11& 八進位\\
-\end{matrix}</script><p>八進位<script type="math/tex">100=1\times8^2+0\times8^1+0\times8^0=64 (十進位)</script>，<br>圖示 :<script type="math/tex">\begin{matrix}
+\end{matrix}</script><br>八進位的<script type="math/tex">100=1\times8^2+0\times8^1+0\times8^0=64 (十進位)</script>，<br>圖示 :<script type="math/tex">\begin{matrix}
 8^2&8^1&8^0\\
 1&0&0\\
 \end{matrix}</script></p>

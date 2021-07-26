@@ -89,11 +89,11 @@ const ap = new APlayer({
 		lrc: '/music/lyrics/我超喜歡你.lrc'
       },
 	  {
-        name: "罪深き俺たちの賛歌",
-        artist: '監獄男子',
-        url: 'https://drive.google.com/uc?export=download&id=1SDT217L1ZJB0EXP3qQvsG6paINKPEi5_',
-        cover: '/music/cover/罪深き俺たちの賛歌.jpg',
-		lrc: '/music/lyrics/罪深き俺たちの賛歌.lrc'
+        name: "No brand girls",
+        artist: 'μ’s',
+        url: 'https://drive.google.com/uc?export=download&id=1DhS5evVqi9CwS2sSJ8XscdgQawOV1K6-',
+        cover: '/music/cover/No brand girls.jpg',
+		lrc: '/music/lyrics/No brand girls.lrc'
       },
 	  {
         name: "Hear Me Cry",

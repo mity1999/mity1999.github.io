@@ -3,10 +3,30 @@
   <entry>
     <title>電腦儲存資料的方式</title>
     <url>/2021/07/25/%E9%9B%BB%E8%85%A6%E5%84%B2%E5%AD%98%E8%B3%87%E6%96%99%E7%9A%84%E6%96%B9%E5%BC%8F.html</url>
-    <content><![CDATA[<h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就進位。0,1,2,3,4,5,6,7,8,9, <font color=#FF0000>10</font>，此時「十」要讀作「<font color=#FF0000>一零</font>」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。<br><span id="more"></span><br>如: <script type="math/tex">100=1\times10^2+0\times10^1+0\times10^0</script>，圖示為:$\begin{matrix}<br>10^2&amp;10^1&amp;10^0\\<br>1&amp;0&amp;0\\<br>\end{matrix}$。</p>
-<h2 id="二進位-Binary"><a href="#二進位-Binary" class="headerlink" title="二進位(Binary)"></a><font color=#FF6600>二進位(Binary)</font></h2><p>逢二進位。電腦的底層訊號，亦為其專用的語言，電腦只懂二進位。<br>0,1,10(一零),11(一 一),100(一零零),101,…，分別對應十進位的0,1,2,3,4,5,…。如:<font color=#FF0000>$\begin{matrix}<br>0&amp;1&amp;2&amp;3&amp;4&amp;5&amp;十進位\\<br>0&amp;1&amp;10&amp;11&amp;100&amp;101&amp;二進位\\<br>\end{matrix}$</font><br>二進位的 $1000=1\times2^3+0\times2^2+0\times2^1+0\times2^0=8$ (十進位)，<br>圖示: $\begin{matrix}<br>2^3&amp;2^2&amp;2^1&amp;2^0\\<br>1&amp;0&amp;0&amp;0\\<br>\end{matrix}$， 和十進位差別在於<mark>底數</mark>，二進位以「2」為基底。</p>
-<h2 id="八進位-Octal"><a href="#八進位-Octal" class="headerlink" title="八進位(Octal)"></a>八進位(Octal)</h2><p>逢八進位，以「8」為基底。0,1,2,3,4,5,6,7,10,…，此時的「10」等於十進位的「8」。如:$\begin{matrix}<br>0&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7&amp;8&amp;9&amp; 十進位\\<br>0&amp;1&amp;2&amp;3&amp;4&amp;5&amp;6&amp;7&amp;10&amp;11&amp; 八進位\\<br>\end{matrix}$<br>八進位的$100=1\times8^2+0\times8^1+0\times8^0=64$ (十進位)，<br>圖示 :$\begin{matrix}<br>8^2&amp;8^1&amp;8^0\\<br>1&amp;0&amp;0\\<br>\end{matrix}$</p>
-<h2 id="十六進位-Hex"><a href="#十六進位-Hex" class="headerlink" title="十六進位(Hex)"></a>十六進位(Hex)</h2><p>逢十六進位，以「16」為基底。0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10，此時「10」等於十進位的「16」。<br>如:<br>$\begin{matrix}<br>10&amp;11&amp;12&amp;13&amp;14&amp;15&amp;16&amp;17&amp;18&amp;…&amp;26&amp;27&amp;十進位\\<br>A&amp;B&amp;C&amp;D&amp;E&amp;F&amp;10&amp;11&amp;12&amp;…&amp;1A&amp;1B&amp;十六進位\\<br>\end{matrix}$<br>十六進位的$FF=15\times16^1+15\times16^0=225$ (十進位)<br>圖示 :$\begin{matrix}<br>16^1&amp;16^0\\<br>F&amp;F\\<br>\end{matrix}$<br><blockquote class="blockquote-center">
+    <content><![CDATA[<h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就進位。0,1,2,3,4,5,6,7,8,9, <font color=#FF0000>10</font>，此時「十」要讀作「<font color=#FF0000>一零</font>」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。<br><span id="more"></span><br>如: <script type="math/tex">100=1\times10^2+0\times10^1+0\times10^0</script>，圖示為:<script type="math/tex">\begin{matrix}
+10^2&10^1&10^0\\
+1&0&0\\
+\end{matrix}</script>。</p>
+<h2 id="二進位-Binary"><a href="#二進位-Binary" class="headerlink" title="二進位(Binary)"></a><font color=#FF6600>二進位(Binary)</font></h2><p>逢二進位。電腦的底層訊號，亦為其專用的語言，電腦只懂二進位。<br>0,1,10(一零),11(一 一),100(一零零),101,…，分別對應十進位的0,1,2,3,4,5,…。如:<font color=#FF0000><script type="math/tex">\begin{matrix}
+0&1&2&3&4&5&十進位\\
+0&1&10&11&100&101&二進位\\
+\end{matrix}</script></font><br>二進位的 <script type="math/tex">1000=1\times2^3+0\times2^2+0\times2^1+0\times2^0=8</script> (十進位)，<br>圖示: <script type="math/tex">\begin{matrix}
+2^3&2^2&2^1&2^0\\
+1&0&0&0\\
+\end{matrix}</script>， 和十進位差別在於<mark>底數</mark>，二進位以「2」為基底。</p>
+<h2 id="八進位-Octal"><a href="#八進位-Octal" class="headerlink" title="八進位(Octal)"></a>八進位(Octal)</h2><p>逢八進位，以「8」為基底。0,1,2,3,4,5,6,7,10,…，此時的「10」等於十進位的「8」。如:<script type="math/tex">\begin{matrix}
+0&1&2&3&4&5&6&7&8&9& 十進位\\
+0&1&2&3&4&5&6&7&10&11& 八進位\\
+\end{matrix}</script><br>八進位的<script type="math/tex">100=1\times8^2+0\times8^1+0\times8^0=64</script> (十進位)，<br>圖示 :<script type="math/tex">\begin{matrix}
+8^2&8^1&8^0\\
+1&0&0\\
+\end{matrix}</script></p>
+<h2 id="十六進位-Hex"><a href="#十六進位-Hex" class="headerlink" title="十六進位(Hex)"></a>十六進位(Hex)</h2><p>逢十六進位，以「16」為基底。0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10，此時「10」等於十進位的「16」。<br>如:</p>
+<script type="math/tex; mode=display">\begin{matrix}
+10&11&12&13&14&15&16&17&18&...&26&27&十進位\\
+A&B&C&D&E&F&10&11&12&...&1A&1B&十六進位\\
+\end{matrix}</script><p>十六進位的<script type="math/tex">FF=15\times16^1+15\times16^0=225$ $(十進位)
+圖示 :</script>\begin{matrix}<br>16^1&amp;16^0\\<br>F&amp;F\\<br>\end{matrix}$$<br><blockquote class="blockquote-center">
 <p>世界上有10種人，一種是懂二進位的，另一種是不懂的。</p>
 
 </blockquote></p>

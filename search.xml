@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>電腦儲存資料的方式</title>
-    <url>/2021/07/25/%E9%9B%BB%E8%85%A6%E5%84%B2%E5%AD%98%E8%B3%87%E6%96%99%E7%9A%84%E6%96%B9%E5%BC%8F.html</url>
+    <url>/2021/07/25/1.html</url>
     <content><![CDATA[<h1 id="進位制"><a href="#進位制" class="headerlink" title="進位制"></a><font color=#008000>進位制</font></h1><h2 id="十進位-Decimal"><a href="#十進位-Decimal" class="headerlink" title="十進位(Decimal)"></a>十進位(Decimal)</h2><p>逢十就進位。0,1,2,3,4,5,6,7,8,9, <font color=#FF0000>10</font>，此時「十」要讀作「<font color=#FF0000>一零</font>」。11讀作「一 一」，12讀作「一二」，依序類推，20讀作「二零」。<br><span id="more"></span><br>如:<script type="math/tex">100=1\times10^2+0\times10^1+0\times10^0</script>，圖示為:<script type="math/tex">\begin{matrix}
 10^2&10^1&10^0\\
 1&0&0\\

@@ -27,11 +27,10 @@ const ap = new APlayer({
 		lrc: '/music/lyrics/雙人枕頭.lrc'
       },
 	  {
-        name: "你是我胸口永遠的痛",
-        artist: '王傑 x 葉歡',
-        url: 'https://drive.google.com/uc?export=download&id=1AoZCUkpALdRJvNrqOcZ3uwrogn6gg-ai',
-        cover: '/music/cover/你是我胸口永遠的痛.jpg',
-		lrc: '/music/lyrics/你是我胸口永遠的痛.lrc'
+        name: "是不是這樣的夜晚你才會這樣的想起我",
+        artist: '吳宗憲',
+        url: 'https://drive.google.com/uc?export=download&id=1mLDRIrlrKgCa5JYQxVg21al2UdYvSrSW',
+        cover: '/music/cover/是不是這樣的夜晚你才會這樣的想起我.jpg'		
       },
 	  {
         name: "講什麼山盟海誓",

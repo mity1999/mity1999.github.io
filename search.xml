@@ -33,7 +33,7 @@ F&F\\
 <p>世界上有10種人，一種是懂二進位的，另一種是不懂的。</p>
 
 </blockquote></p>
-<h1 id="儲存空間單位"><a href="#儲存空間單位" class="headerlink" title="儲存空間單位"></a><font color=#008000>儲存空間單位</font></h1><p>資料儲存的最小單位是Bit，也就是位元，只能儲存 0 或 1。<br>8 個位元等於 1 個位元組，即 8 Bit=1 Byte。<br>1 Kilobyte(KB)=1024 byte<br><div class="note info"><p>為什麼1 KB不是 1000 Byte，而是 1024 Byte ?<br>因為1024=2^10，使用二進位方便電腦儲存。</p>
+<h1 id="儲存空間單位"><a href="#儲存空間單位" class="headerlink" title="儲存空間單位"></a><font color=#008000>儲存空間單位</font></h1><p>資料儲存的最小單位是Bit，也就是位元，只能儲存 0 或 1。<br>8 個位元等於 1 個位元組，即 8 Bit=1 Byte。<br>1 Kilobyte(KB)=1024 byte<br><div class="note info"><p>為什麼1 KB不是 1000 Byte，而是 1024 Byte ?<br>因為<script type="math/tex">1024=2^10</script>，使用二進位方便電腦儲存和處理。</p>
 </div><br>1 Megabyte(MB)=1024 KB<br>1 Gigabyte(GB)=1024 MB<br>1 TB=1024 GB<br>1 Petabyte(PB)=1024 TB<br>1 Exabyte(EB)=1024 PB<br>1 Zettabyte(ZB)=1024 EB<br>1 Yottabyte(YB)=1024 ZB</p>
 ]]></content>
       <categories>

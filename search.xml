@@ -10,7 +10,7 @@
 <h2 id="二進位-Binary"><a href="#二進位-Binary" class="headerlink" title="二進位(Binary)"></a><font color=#FF6600>二進位(Binary)</font></h2><p>逢二進位。電腦的底層訊號，亦為其專用的語言，電腦只懂二進位。<br>0,1,10(一零),11(一 一),100(一零零),101,…，分別對應十進位的0,1,2,3,4,5,…。<br>如:<font color=#FF0000><script type="math/tex">\begin{matrix}
 0&1&2&3&4&5&十進位\\
 0&1&10&11&100&101&二進位\\
-\end{matrix}</script></font><br>二進位的<script type="math/tex">1000=1\times2^3+0\times2^2+0\times2^1+0\times2^0=8 (十進位)</script>，<br>圖示: <script type="math/tex">\begin{matrix}
+\end{matrix}</script></font><br>二進位的<script type="math/tex">1000=2^3+0\times2^2+0\times2^1+0\times2^0=8 (十進位)</script>，<br>圖示: <script type="math/tex">\begin{matrix}
 2^3&2^2&2^1&2^0\\
 1&0&0&0\\
 \end{matrix}</script>， 和十進位差別在於<mark>底數</mark>，二進位以「2」為基底。</p>
